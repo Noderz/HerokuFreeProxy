@@ -6,6 +6,6 @@ urlpatterns = patterns('',
     # Examples:
     # url(r'^$', 'herokufreeproxy.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
-    url('proxy/(?P<url>.*)', views.proxy_view),
+    url('prox/(?P<url>.*)', views.proxy_view),
     url(r'^admin/', include(admin.site.urls)),
 )
